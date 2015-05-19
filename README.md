@@ -23,27 +23,6 @@ After that do .
 
 This will create a sentry config file on your config folder then change the Group , User and throttle to the following 
 
-Laravel MongoDB Sentry
-======================
-
-Because Sentry's models extends the original Eloquent model, it could not be used with MongoDB. This package includes models that extends `Jenssegers\Mongodb\Model` and thus support MongoDB.
-
-Installation
-------------
-
-Make sure you have [jenssegers\mongodb](https://github.com/jenssegers/Laravel-MongoDB) installed before you continue.
-
-Install using composer:
-
-    composer require jenssegers/mongodb-sentry
-
-For instructions on Sentry, check out https://cartalyst.com/manual/sentry/installation/laravel-4
-
-Usage
------
-
-To use the included MongoDB-enabled models, change the Sentry configuration model sections:
-
 ```
     'groups' => array(
 
