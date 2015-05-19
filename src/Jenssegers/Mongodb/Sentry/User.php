@@ -35,7 +35,7 @@ class User extends Model implements UserInterface {
      *
      * @var string
      */
-    protected $table = 'users';
+    protected $collectoin = 'users';
 
     /**
      * The attributes that should be hidden for arrays.

@@ -38,7 +38,7 @@ class Throttle extends Model implements ThrottleInterface {
      *
      * @var string
      */
-    protected $table = 'throttle';
+    protected $collection = 'throttle';
 
     /**
      * Indicates if the model should be timestamped.
