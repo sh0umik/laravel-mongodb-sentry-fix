@@ -14,6 +14,12 @@
         "cartalyst/sentry": "dev-feature/laravel-5",
         "jenssegers/mongodb": "*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thebdcoder/laravel-mongodb-sentry-fix"
+        }
+    ],
     "autoload": {
         "psr-0": {
             "Jenssegers\\Mongodb\\Sentry": "src/"
