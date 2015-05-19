@@ -1,5 +1,5 @@
 {
-    "name": "jenssegers/mongodb-sentry-fix",
+    "name": "jenssegers/mongodb-sentry",
     "description": "An extension for Laravel-MongoDB that lets you work with Sentry",
     "keywords": ["laravel","sentry","mongodb","mongo","authentication"],
     "authors": [
