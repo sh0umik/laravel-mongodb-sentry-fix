@@ -38,6 +38,13 @@ class User extends Model implements UserInterface {
     protected $collectoin = 'users';
 
     /**
+     * Mongodb Unique identifier is _id not id
+     *
+     * @var id
+     */
+    protected $id = '_id';
+
+    /**
      * The attributes that should be hidden for arrays.
      *
      * @var array
